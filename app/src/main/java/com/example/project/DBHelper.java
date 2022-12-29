@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import androidx.annotation.Nullable;
 
 public class DBHelper extends SQLiteOpenHelper {
-    public DBHelper(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
+    public DBHelper(@Nullable Context context) {
         super(context, "car.db",null,1);
     }
 

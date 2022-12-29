@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b6"
+    tools:context=".loginpage">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:background="#8E7878"
+        android:textColor="@color/black"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="96dp"
+        android:text="LOGIN" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="16dp"
+        android:background="#C1ABAB"
+        android:gravity="center"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="16dp"
+        android:background="#C1ABAB"
+        android:gravity="center"
+        android:hint="Mobile"
+        android:inputType="textPersonName" />
+
+    <Button
+    android:id="@+id/loginn"
+    android:layout_width="wrap_content"
+    android:layout_height="65dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="410dp"
+        android:backgroundTint="#5E5656"
+    android:gravity="center"
+    android:hint="LOGIN" />
+
+
+</RelativeLayout>
